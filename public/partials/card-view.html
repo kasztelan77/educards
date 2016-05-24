@@ -1,0 +1,31 @@
+<p ng-model="card.title">
+  <h1>
+    Title: {{card.title}}
+  </h1>
+  <h2>
+    Description: {{card.description}}
+  </h2>
+  <br>
+  <iframe ng-src="{{trustedLink}}" align="middle" width="500" height="400" frameborder="1">
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+  <br>
+  <a ng-href="{{card.link}}">External link</a>
+  <br>
+  <br>
+  Suggested priors:
+  <ul>
+    <li ng-repeat="prior in card.prior">
+      <a ng-click=openCard(prior)>{{prior}}</a>
+    </li>
+  </ul>
+  <br>
+  Suggested follow up:
+  <ul>
+    <li ng-repeat="followup in card.followup">
+      <a ng-click=openCard(followup)>{{followup}}</a>
+    </li>
+  </ul>
+  <br>
+</p>
+<input type="button" class="btn btn-primary" value="Back" ng-click="cancel()"></input>

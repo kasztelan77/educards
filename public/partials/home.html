@@ -1,0 +1,24 @@
+<h1>Educards</h1>
+<p>
+  <a href="/#/add-card">Add a new card</a>
+</p>
+
+<br>
+<p>
+  Pick a card from the following list to view.
+  <br>
+  Click on the icon to the left to modify or delete a card.
+</p>
+<ul>
+  <li ng-repeat='card in cards'>
+    <a href="/#/card/edit/{{card._id}}">
+      <i class="glyphicon glyphicon-edit"></i>
+    </a>
+    <a href="/#/card/delete/{{card._id}}">
+      <i class="glyphicon glyphicon-remove"></i>
+    </a>
+    <a href="/#/card/{{card._id}}">
+      {{card.title}}
+    </a>
+  </li>
+</ul>
