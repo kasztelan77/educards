@@ -1,0 +1,74 @@
+{
+    "_id" : ObjectId("56fcd39f225262680fac59d0"),
+    "title" : "Web browsers",
+    "description" : "Learn about web browsers",
+    "link" : "https://www.youtube.com/watch?v=BrXPcaRlBqo&nohtml5=False",
+    "prior" : [ 
+        "World Wide Web", 
+        "http://www.google.com", 
+        "PageRank"
+    ],
+    "followup" : [ 
+        "http://www.wikipedia.com/wiki/Web_browser"
+    ]
+}
+
+{
+    "_id" : ObjectId("570bef2c21d6f8540f92f895"),
+    "title" : "Couch db",
+    "description" : "Learn about Apache couch db",
+    "link" : "https://www.youtube.com/watch?v=TvRDOLiadtg&list=PLxcWHsmHykmWlXorl8rm-2Ux4HP1sFkub",
+    "prior" : [ 
+        "NOSQL"
+    ],
+    "followup" : [ 
+        "http://www.couchdb.org"
+    ]
+}
+
+{
+    "_id" : ObjectId("570c342d6ff301401b667cb4"),
+    "title" : "PageRank",
+    "description" : "Google PageRank algorithm",
+    "link" : "https://www.youtube.com/watch?v=4c3DAxQXzLI",
+    "prior" : "a",
+    "followup" : "b"
+}
+
+{
+    "_id" : ObjectId("570ccb2edb9cc34c2cbf8514"),
+    "title" : "World Wide Web",
+    "description" : "History and architecture of the web",
+    "link" : "https://www.youtube.com/watch?v=J8hzJxb0rpc",
+    "prior" : null,
+    "followup" : null
+}
+
+{
+    "_id" : ObjectId("570d5e77dede03dc276ad531"),
+    "title" : "Web search",
+    "description" : "Learn about web search technology",
+    "link" : "https://www.youtube.com/watch?v=B_rFFosTEMc",
+    "prior" : [ 
+        "World Wide Web"
+    ],
+    "followup" : [ 
+        "PageRank", 
+        "https://www.youtube.com/watch?v=KyCYyoGusqs"
+    ]
+}
+
+{
+    "_id" : ObjectId("570d675027ebbe18085c3b4f"),
+    "title" : "NOSQL",
+    "description" : "NOSQL databases",
+    "link" : "https://www.youtube.com/watch?v=qI_g07C_Q5I&nohtml5=False",
+    "prior" : [ 
+        ""
+    ],
+    "followup" : [ 
+        "mongoDB", 
+        "Couch db", 
+        "couchbase"
+    ]
+}
